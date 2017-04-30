@@ -1,0 +1,81 @@
+.resumeBody h1 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.resumeBody h2 {
+    font-size: 1.2rem;
+}
+
+.resumeBody h2 strong {
+    color: #0844FE;
+}
+
+.resumeBody h2 em {
+    color: #3A5460;
+}
+
+.jumbotron {
+    background-image: url('/images/resumeHero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.resumeBody .container .row .col-sm {
+    border-top: 1px solid rgba(86, 61, 124, .2);
+    padding: .75rem;
+}
+
+.resumeBody .container .row:last-child .col-sm {
+    border-bottom: 1px solid rgba(86, 61, 124, .2);
+}
+
+.resumeBody .container .row .col-sm-3 {
+    border-top: 1px solid rgba(86, 61, 124, .2);
+    padding: .75rem;
+}
+
+.resumeBody .container .row:last-child {
+    border-bottom: 1px solid rgba(86, 61, 124, .2);
+}
+
+.resumeBody .container {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.footer {
+    margin-top: 2.5rem;
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.jumbotron-hero {
+    padding: 2rem 2rem;
+}
+
+.hero {
+    background-color: rgba(80, 80, 80, 0.5);
+    padding: 2rem;
+}
+
+.hero-header {
+    font-size: 2.5rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+}
+
+.hero-header {
+    font-size: 2.5rem;
+}
+
+.hero-subheader {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
